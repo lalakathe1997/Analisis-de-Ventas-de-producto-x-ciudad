@@ -1,13 +1,13 @@
-📊 Análisis de Ventas de Producto por Ciudad
+📊**Análisis de Ventas de Producto por Ciudad**
 Dashboard interactivo desarrollado en Power BI para analizar el comportamiento comercial de productos tecnológicos en las principales ciudades de Colombia.
 
-🎯 Objetivo
+🎯 **Objetivo**
 Identificar patrones de ventas por producto y ciudad, detectar el mes de mayor rendimiento y visualizar la distribución del ingreso total, con el fin de apoyar la toma de decisiones comerciales basadas en datos.
 
-📸 Vista del dashboard
-Mostrar imagen
+📸 **Vista del dashboard**
+adjunto en los archivos del repositorio
 
-📌 Principales hallazgos
+📌** Principales hallazgos**
 
 Ventas totales: $714 millones COP en el período analizado
 Producto líder: Monitor con el 21.85% del total de ventas ($156M)
@@ -16,10 +16,10 @@ Mes pico: Enero registró las ventas más altas del año (~$100M)
 Los 5 productos analizados tienen una distribución bastante equilibrada (entre 16% y 22% cada uno), lo que indica una demanda diversificada
 
 
-🗂️ Contenido del repositorio
+🗂️ **Contenido del repositorio**
 ArchivoDescripciónAnalisis de Ventas de producto x ciudad.pbixArchivo Power BI con el dashboard completoAnalisis de Ventas de producto x ciudad.pdfExportación en PDF del dashboardCaptura de pantalla 2026-04-28 131002.pngVista previa del dashboard
 
-📊 Visualizaciones incluidas
+📊 **Visualizaciones incluidas**
 
 KPIs — Ventas totales, producto líder, ciudad líder y mes pico
 Gráfico de barras apiladas — Ventas por ciudad desglosadas por producto
@@ -29,14 +29,14 @@ Barras verticales — Tendencia de ventas mes a mes
 Tabla resumen — Ranking de productos con ventas totales
 
 
-🛠️ Herramientas utilizadas
+🛠️ **Herramientas utilizadas**
 
 Power BI Desktop — Construcción del dashboard y visualizaciones
 DAX — Medidas calculadas para KPIs dinámicos (producto líder, ciudad líder, mes pico)
 Power Query — Transformación y limpieza de datos
 
 
-💡 Medidas DAX destacadas
+💡 **Medidas DAX destacadas**
 dax-- Producto con mayor volumen de ventas
 Producto Líder = 
 CALCULATE(
