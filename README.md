@@ -7,7 +7,7 @@ Identificar patrones de ventas por producto y ciudad, detectar el mes de mayor r
 📸 **Vista del dashboard**
 adjunto en los archivos del repositorio
 
-📌** Principales hallazgos**
+📌 **Principales hallazgos**
 
 Ventas totales: $714 millones COP en el período analizado
 Producto líder: Monitor con el 21.85% del total de ventas ($156M)
@@ -58,7 +58,7 @@ CALCULATE(
     TOPN(1, ALL(Ventas[Mes]), CALCULATE(SUM(Ventas[Monto])), DESC)
 )
 
-👩‍💻 Autora
+👩‍💻 **Autora**
 Laura Katherine Cuevas Alba
 Data Analyst en formación | SQL · Python · Power BI
 LinkedIn · GitHub
